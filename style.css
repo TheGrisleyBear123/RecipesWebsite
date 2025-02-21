@@ -1,7 +1,7 @@
 body{ 
    height: 350vh;
    background: 
-    linear-gradient(red, green);
+    linear-gradient(#FFCCCB, #66FF99);
 }
 
 .checked {
