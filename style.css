@@ -1,5 +1,5 @@
 body{ 
-   height: 100dvb;
+   height: 250dvb;
    background: 
     linear-gradient(#FFCCCB, #66FF99);
 }
@@ -7,10 +7,27 @@ body{
 .checked {
     color: orange;
 }
+ .large-image-contaner{ 
+    max-width: 50%;
+    max-height: 50%;
+    opacity: 0.6;
+    transition: 1s;
+ }
+ .large-image-contaner:hover{ 
+    opacity: 3;
+ }
 
-div.gallery{ 
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
+ .small-image-container{ 
+    z-index: 1;
+    max-width: 40%;
+    max-height: 40%;
+    gap: 10px;
+    display: flex; 
+    opacity: 0.6;
+    transition: 1s;
+ }
+
+ .small-image-container:hover{ 
+    opacity: 3
+ }
+ 
