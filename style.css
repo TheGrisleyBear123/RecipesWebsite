@@ -30,4 +30,15 @@ body{
  .small-image-container:hover{ 
     opacity: 3
  }
+ .table-information, td, th{ 
+    border: 1px solid;
+    border-color: yellow;
+ }
+
+ .table-information{ 
+    width: 100%; 
+    border-color: yellow;
+    border-collapse: collapse;
+    border: 1px solid;
+ }
  
